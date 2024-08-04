@@ -81,7 +81,7 @@ const Home = () => {
             />
           </Link>
           <Link to="/users">
-            <div className="w-[290px] md:w-[380px] rounded-2xl h-[195px] flex flex-col justify-center items-start bg-card-three-bg p-4 shadow-lg">
+            <div className="w-[280px] md:w-[380px] rounded-2xl h-[195px] flex flex-col justify-center items-start bg-card-three-bg p-4 shadow-lg">
               <div className="text ml-8 flex flex-col justify-center items-start gap-3">
                 <h4 className="text-2xl font-gilroy font-bold text-white">
                   Learn how to send <br /> Wishlinks

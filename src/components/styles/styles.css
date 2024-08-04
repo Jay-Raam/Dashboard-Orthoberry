@@ -1,0 +1,43 @@
+input[type="tel"] {
+  border: 0 !important;
+  outline: none !important;
+}
+
+.custom-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+}
+
+.custom-checkbox:checked {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.custom-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+@media (max-width: 992px) {
+  nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    backdrop-filter: blur(71px);
+    padding: 20px;
+  }
+}

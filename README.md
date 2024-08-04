@@ -12,14 +12,14 @@ I created this website to showcase my work. I’m always striving to create some
 
 ## Screenshots & Demo
 
-[View Live Demo](https://jay-protfolio.vercel.app/)
+[View Live Demo](https://jayasriraam-dashboard-orthoberry.vercel.app/)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  https://github.com/Jay-Raam/Jay-Protfolio.git
+     https://github.com/Jay-Raam/Dashboard-Orthoberry.git
 ```
 
 Go to the project directory
